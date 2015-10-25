@@ -11,7 +11,7 @@ public class HadoopMR
 	public static void main(String[] args) throws Exception 
 	{
 	    Configuration conf = new Configuration();
-	    Job job = Job.getInstance(conf, "word count");
+	    Job job = Job.getInstance(conf, "Aggregator");
 	    job.setJarByClass(HadoopMR.class);
 	    job.setMapperClass(TokenizerMapper.class);
 	    job.setCombinerClass(IntSumReducer.class);
