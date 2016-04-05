@@ -1,16 +1,8 @@
 # HadoopMR
-Example for getting to know Hadoop Mapreduce and its components
+Log of activities while i continue to learn Hadoop, Mapreduce and its ecosystems
 
 # Brief
 
-When i started learning Hadoop, specifically the map reduce, all or most of the examples that I came across were around word counting. I wanted to try something more than just the basic. Hence decided to try and write a map reduce program to aggregate data based on multiple Fields of a record.
+When i started learning Hadoop, specifically the map reduce, all or most of the examples that I came across were around word counting. I wanted to try something more than just the basic. Hence decided to write a map reduce program to aggregate data based on multiple Fields of a record. 
 
-# Data
-The example considers record with three fields - the first is a product, the second is a location and the third is the sales for the product, location combination. 
-
-The CompositeKey class implements a custom 'Key'. This class overrides the compare, readFields and write methods. 
-
-TokenizerMapper is the mapper class and IntSumReducer the reducer class.
-
-The map-reduce aggregates the sales for a Product over all locations.
-
+As i started writing that program, i got more questions about the framework. That is when i decided to capture my experience here on gitHub in anticipation that it helps others as well as myself when i look back on the process of learning.
