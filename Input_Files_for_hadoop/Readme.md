@@ -8,3 +8,5 @@ The above scenario brings into focus two aspects </br>
 <pre>&#9 2. Preprocessing step where multiple files are combined into one file for efficiency purposes </pre>
     
 Having written the necessary Record Reader & Combiner classes, the combined file would then have multiple 'records' in it. Such a file is 'splittable' and can potentially get distributed across multiple mappers based on how the input splits happen. 
+
+Folder 'Processing Binary Files on Hadoop' provides explanation and source files for Java MR of PDF files using Hadoop
