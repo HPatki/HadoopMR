@@ -1,5 +1,5 @@
 # HadoopMR
-Log of activities while i continue to learn Hadoop, Mapreduce and its ecosystems
+Activity Log of my effort at learning Hadoop, Mapreduce and its ecosystems
 
 # Brief
 
