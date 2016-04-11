@@ -17,7 +17,6 @@ import java.io.InputStreamReader;
  */
 public class CustomRecordReader extends RecordReader {
 
-    private boolean printed = false;
     private Path file = null;
     private Configuration jc;
     private Text record;
@@ -27,7 +26,6 @@ public class CustomRecordReader extends RecordReader {
     @Override
     public void initialize(InputSplit inputSplit, TaskAttemptContext taskAttemptContext) throws IOException, InterruptedException
     {
-        System.out.println("Entered initialize...");
         FileSplit split = (FileSplit) inputSplit;
         file = split.getPath();
         jc = taskAttemptContext.getConfiguration();
